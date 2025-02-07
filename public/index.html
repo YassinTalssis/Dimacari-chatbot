@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dimacari Location de Voitures | تأجير سيارات ديماكاري</title>
+  <!-- Linking Google Fonts For Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <!-- Header Greetings -->
+    <h1 class="title">Bienvenue chez Dimacari Location de Voitures</h1>
+    <p class="subtitle">Comment pouvons-nous vous aider aujourd'hui?</p>
+    <!-- Arabic Translation -->
+    <h1 class="title" dir="rtl">مرحبًا بكم في ديماكاري لتأجير السيارات</h1>
+
+    <!-- Suggestion list -->
+    <ul class="suggestion-list">
+      <li class="suggestion">
+        <h4 class="text">Find the best car for a weekend getaway.</h4>
+        <span class="icon material-symbols-rounded">directions_car</span>
+      </li>
+      <li class="suggestion">
+        <h4 class="text">What documents do I need to rent a car?</h4>
+        <span class="icon material-symbols-rounded">description</span>
+      </li>
+      <li class="suggestion">
+        <h4 class="text">Help me extend my rental period.</h4>
+        <span class="icon material-symbols-rounded">calendar_month</span>
+      </li>
+      <li class="suggestion">
+        <h4 class="text">What are your fuel policy options?</h4>
+        <span class="icon material-symbols-rounded">local_gas_station</span>
+      </li>
+    </ul>
+  </header>
+
+  <!-- Chat List / Container -->
+  <div class="chat-list"></div>
+
+  <!-- Typing Area -->
+  <div class="typing-area">
+    <form action="#" class="typing-form">
+      <div class="input-wrapper">
+        <input type="text" placeholder="Enter your question here" class="typing-input" required />
+        <button id="send-message-button" class="icon material-symbols-rounded">send</button>
+      </div>
+      <div class="action-buttons">
+        <span id="theme-toggle-button" class="icon material-symbols-rounded">light_mode</span>
+        <span id="delete-chat-button" class="icon material-symbols-rounded">delete</span>
+      </div>
+    </form>
+    <p class="disclaimer-text">
+      Dimacari Chatbot may display general information. For specific inquiries, contact our support team.
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

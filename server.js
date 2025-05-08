@@ -1,3 +1,4 @@
+// start first this server with this command: node server.js
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
